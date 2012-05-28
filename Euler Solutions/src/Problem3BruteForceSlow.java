@@ -7,10 +7,6 @@ import java.util.ArrayList;
  *	The prime factors of 13195 are 5, 7, 13 and 29.
  *	What is the largest prime factor of the number 600,851,475,143 ?
  *
- *
- * Why this program fails:
- * This program will usually end in a stack overflow because of the large stack I'm making
- * in the makePrimeList function. It 
  */
 public class Problem3BruteForceSlow {
 	static ArrayList<Long> primes = new ArrayList<Long>();
