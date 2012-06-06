@@ -1,3 +1,4 @@
+package com.michaeldavidcole.euler;
 import java.util.ArrayList;
 
 /**
@@ -121,6 +122,24 @@ public class PrimeAndFactor {
 		}
 		return factors.subList(0, factors.size());
 
+	}
+	
+	
+	/**
+	 * This function returns a list of all the dividers of N. An example of this
+	 * is 
+	 */
+	public java.util.List<Integer> FindDivisorsForN(int n){
+		FindPrimesUpToN(n);
+		factors = new ArrayList<Integer>();
+		
+		for(int i = 1; i <=n; i++){
+			if(n%i == 0){
+				factors.add(i);
+			}
+		}
+		
+		return factors.subList(0, factors.size());
 	}
 
 }
