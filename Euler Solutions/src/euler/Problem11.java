@@ -1,4 +1,4 @@
-package com.michaeldavidcole.euler;
+package euler;
 /**
  * Authors note: I can clean up this code a bit more. It seems really complicated with
  * all the nested if's
