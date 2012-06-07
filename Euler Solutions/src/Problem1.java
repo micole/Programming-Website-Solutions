@@ -1,4 +1,3 @@
-package com.michaeldavidcole.euler;
 /**
  * 
  * @author micole

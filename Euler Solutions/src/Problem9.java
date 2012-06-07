@@ -1,4 +1,3 @@
-package com.michaeldavidcole.euler;
 
 /**
  * Author note: I feel like I'm solving a lot of these problems with brute force.

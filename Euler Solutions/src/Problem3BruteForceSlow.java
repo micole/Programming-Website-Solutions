@@ -1,4 +1,3 @@
-package com.michaeldavidcole.euler;
 import java.util.ArrayList;
 
 /**
