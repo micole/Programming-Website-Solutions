@@ -1,4 +1,4 @@
-package euler;
+package com.michaeldavidcole.euler;
 
 /**
  * 
